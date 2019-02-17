@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", "PT Sans", Arial, sans-serif;
+
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+
+
+  background-color: #ffffff;
+  min-width: 960px;
+}
+
+.container {
+  max-width: 940px;
+  width: 100%;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none
+}
+
+h1 {
+  width: 196px;
+  height: 60px;
+  color: #ee3643;
+  font-family: Cuprum;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+}
+
+h2 {
+  font-family: Cuprum;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+/*header*/
+.main-header-logo {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 13px 55px 16px 55px;
+  background-color: #ee3643;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#ac{
+  width: 270px;
+  height: 42px;
+}
+.main-header {
+  background-color: #f3f7f8;
+  background-position: top center;
+}
+.bookmark{
+  display: block;
+  padding: 14px 28px 13px 44px;
+}
+.basket{
+  display: block;
+  padding: 14px 31px 13px 50px;
+}
+.checkout{
+  display: block;
+  padding: 14px 22px 13px 20px;
+}
+
+.main-header-top {
+  display: flex;
+  justify-content: center;
+  background-color: #293449;
+  background-position: top center;
+}
+
+.main-header-top a {
+  color: #ffffff;
+  font-family: Cuprum;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.checkout {
+  background-color: #63a63e;
+  text-align: center;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.header-wrapper .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user-block a {
+  color: #000000;
+}
+
+
+.main-header-navigation {
+  height: 60px;
+  box-shadow: inset 0 -5px 0 #293449;
+  background-position: top center;
+
+}
+
+
+
+
+.contacts-information .contacts-information-phone {
+  width: 144px;
+  height: 21px;
+  color: #e9292a;
+  font-family: Cuprum;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 21px;
+
+
+
+  border: 3px solid #ffffff;
+
+}
+
+.contacts-information .contacts-information-address {
+
+  color: #32425c;
+  font-family: Cuprum;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+
+.login {
+
+  width: 121px;
+  height: 45px;
+}
+
+.registration {
+  width: 150px;
+  height: 45px;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.main-header-main ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+}
+
+.main-header-main ul li a {
+  display: block;
+  color: #ffffff;
+  font-family: Cuprum;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 16px 22px 16px 40px;
+  background-color: #32425c;
+  box-shadow: inset 0 -5px 0 #293449;
+
+/*main*/
+
+.company p{
+  font-family: "PT Sans";
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 13px;
+  text-transform: none;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+/*footer*/
+.main-footer-logo {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 13px 55px 16px 55px;
+  background-color: #ee3643;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.main-footer-top {
+
+  height: 193px;
+  background-color: #32425c;
+}
+
+.main-footer-lower {
+  height: 107px;
+  background-color: #293449;
+}
