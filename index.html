@@ -16,7 +16,7 @@
     <div class="main-header-top">
       <div class="container">
         <div class="header-top">
-          <a href="#" class="main-header-logo">Техномарт</a>
+          <a href="#" class="main-header-logo"><img src="img/logo.svg" alt="logo"></a>
           <form action="">
             <input type="image" src="img/icon_search.svg" alt="Найти" class="main-header-top-search">
             <input type="search" name="search" id="ac" placeholder="Поиск:" autocomplete="off">
@@ -37,10 +37,12 @@
           <a href="tel:+78125550555" class="contacts-information-phone">+7 (812) 555-05-55</a>
           <p class="contacts-information-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </section>
-        <section class="user-block">
-          <a href="login.html" class="login">ВОЙТИ</a>
-          <a href="#" class="registration">РЕГИСТРАЦИЯ</a>
-        </section>
+        <nav>
+          <section class="user-block">
+            <a href="login.html" class="login">ВОЙТИ</a>
+            <a href="#" class="registration">РЕГИСТРАЦИЯ</a>
+          </section>
+        </nav>
       </div>
     </div>
     <div class="container-nav">
@@ -48,12 +50,12 @@
         <nav class="main-header-main">
           <ul>
             <li class="active"><a href="#"> Главная</a></li>
-            <li><a  href="#">Компания</a></li>
+            <li><a href="#">Компания</a></li>
             <li><a href="catalog.html">Каталог</a></li>
             <li><a class="news" href="#">Новости</a></li>
             <li><a href="#">Спецпридложения</a></li>
             <li><a href="#">Доставка</a></li>
-            <li><a href="#">Kонтакты</a></li>
+            <li><a href="#">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -143,11 +145,11 @@
     </section>
   -->
   <section class="company">
-    <div id="shipping" class="about">
+    <div class="about">
       <h2 class="about-header">Компания «Техномарт»</h2>
       <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
         равнодушным любителей сэкономить на гастарбайтерах.</p>
-      <p>Мы можем доставить ваш товар в самые отдалнные точки России!
+      <p>Мы можем доставить ваш товар в самые отдаленные точки России!
         <br>Техномарт работает со многими транспортными компаниями:</p>
       <ul class="transport-companies">
         <li><a href="#">Деловые линии</a>
@@ -175,30 +177,28 @@
     <div class="main-footer-top">
       <div class="main-footer-contacts">
         <a href="index.html" class="main-footer-logo"> Техномарт</a>
-        <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
+        <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
           <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         </p>
       </div>
-      <div class="main-footre-nav">
-        <ul>
+      <nav class="main-footer-nav">
+        <ul class="footer-nav-info">
           <li><a href="#">Компания</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="#">Доставка</a></li>
-          <li><a href="#contacts">Контактыv</a></li>
+          <li><a href="#contacts">Контакты</a></li>
         </ul>
-      </div>
-      <div class="main-footer-shop-menu">
-        <ul>
+        <ul class="footer--nav-site">
           <li><a href="#">Материалы</a></li>
           <li> <a href="#">Техника</a></li>
           <li><a href="#">Инструмент</a></li>
-          <li><a href="#">Спецпридложения</a></li>
+          <li><a href="#">Спецпредложения</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
     <div class="main-footer-lower">
-      <p class="copiraight">© 2010–2019 Компания «Техномарт»
+      <p class="copyright">© 2010–2019 Компания «Техномарт»
         Все права защищены</p>
       <div class="social-buttons">
         <a class="btn-social btn-social-vk" href="#">Вконтакте</a>
@@ -209,7 +209,7 @@
         <br><a class="e-mail" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
       </p>
       <address>Разработано:
-        <br><a class="designer" href="http://htmlacademy.ru">htmlacademy.ru</a>
+        <a class="designer" href="http://htmlacademy.ru" target="_blank">htmlacademy.ru</a>
       </address>
 
     </div>
